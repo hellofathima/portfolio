@@ -1,6 +1,40 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
+<style>
+
+.skill-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.skill-button:hover {
+    background-color: #45a049;
+}
+
+.skill-buttons::after {
+    content: "";
+    flex-grow: 999;
+    border-bottom: 2px solid #4CAF50;
+    margin: auto;
+}
+
+</style>
+
     <head>
         <!-- meta data -->
         <meta charset="utf-8">
@@ -127,7 +161,7 @@
 									I am a Developer<span class="text-danger">& Designer</span>
 								</h3>
 								<p>
-									I currently work as the R&D @ Luminar Techno Hub, where I am the resident Python expert. I write reusable, testable and efficient code that meets our client's needs.  In addition to my Python experience, I am also skilled at HTML, SQL,django,rest API and Angular.
+									I currently work as the python trianee@ Luminar Techno Hub, where I am the resident Python expert. I write reusable, testable and efficient code that meets our client's needs.  In addition to my Python experience, I am also skilled at HTML, SQL,django,rest API and Angular.
 								</p>
 								<div class="row">
 									<div class="col-sm-4">
@@ -151,7 +185,7 @@
 						</div>
 						<div class="col-sm-offset-1 col-sm-5">
 							<div class="single-about-img">
-								<img src="assets\images\portfolio\pic.jpg" alt="profile_image">
+								<img style="object-fit: cover;" src="assets\images\portfolio\pic.jpg" alt="profile_image">
 								<div class="about-list-icon">
 									<ul>
 										<li>
@@ -271,55 +305,54 @@ I completed my BSc in computerscience from College of applied science(IHRD)	and 
 
 		<!--skills start -->
 		<section id="skills" class="skills ">
-				<div class="skill-content mt-2">
-					<div class="section-heading text-center">
-						<h2>skills</h2>
+			<div class="section-heading text-center">
+				<h2 style="margin-top: 20px;" >Skills</h2>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="skills-column">
+							<ul class="skills-list">
+								<li class="skill-item">
+									<button class="skill-button">HTML 5</button>
+									<button class="skill-button">MySQL</button>
+									<button class="skill-button">CSS</button>
+									<button class="skill-button">Github</button>
+									<button class="skill-button">Communication</button>
+								</li>
+								<li class="skill-item">
+									<button class="skill-button">Bootstrap</button>
+									<button class="skill-button">Angular</button>
+									<button class="skill-button">PHP</button>
+									<button class="skill-button">Django</button>
+									<button class="skill-button">Javascript</button>
+									<button class="skill-button">OOPS</button>
+
+								</li>
+								<li class="skill-item">
+									<button class="skill-button">Django Rest API</button>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="skills-column">
-									<div class="skills-column">
+				</div>
+			</div>
+									<!-- <div class="skills-column">
 										<ul class="skills-list">
+											
 											<li class="skill-item">
-												<span class="skill-name">HTML 5</span>
-												<span class="skill-name">MySQL</span>
+												
 											</li>
 											<li class="skill-item">
-												<span class="skill-name">CSS</span>
-												<span class="skill-name">GitHub</span>
 											</li>
 											<li class="skill-item">
-												<span class="skill-name">Communication</span>
-												<span class="skill-name">Bootstrap</span>
 											</li>
 											<li class="skill-item">
-												<span class="skill-name">PHP</span>
-											</li>
-										</ul>
-									</div>
-									<div class="skills-column">
-										<ul class="skills-list">
-											<li class="skill-item">
-												<span class="skill-name">Adobe Photoshop</span>
-											</li>
-											<li class="skill-item">
-												<span class="skill-name">Angular</span>
-											</li>
-											<li class="skill-item">
-												<span class="skill-name">Django</span>
-											</li>
-											<li class="skill-item">
-												<span class="skill-name">Django Rest API</span>
-											</li>
-											<li class="skill-item">
-												<span class="skill-name">OOPS</span>
 											</li>
 										</ul>
 										<li class="skill-item">
-											<span class="skill-name">Javascript</span>
 										</li>
-									</div>
+									</div> -->
 								<!--  -->
 							</div>
 						</div><!-- /.row -->
@@ -567,7 +600,7 @@ I completed my BSc in computerscience from College of applied science(IHRD)	and 
 									<div class="item">
 										<img src="assets/images/portfolio/ck.jpeg" alt="portfolio image"/>
 										<div class="isotope-overlay">
-											<a href="#">
+											<a href="#">Cake House using API
 												<h3>Variety of Cakes</h3>
 												<p>Diverse flavors and styles for all occasions.</p>
 												<p>Custom Options: Personalized cakes to fit your needs.</p>
@@ -614,6 +647,7 @@ I completed my BSc in computerscience from College of applied science(IHRD)	and 
 		</section>
 		
 		<!--portfolio end -->
+		<section id="contact" class="contact"></section>
 		
 		
 						<div class="col-md-6 col-sm-12">

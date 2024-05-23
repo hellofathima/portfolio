@@ -375,16 +375,55 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .skills {
     
-    border-top: 2px;
+    border: 0px;
 }
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
-.section-heading h2 {
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #e5ebf2;
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-10 {
+    flex: 1;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    margin: 10px 0;
+}
+
+.skill-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+    background-color: #45a049;
 }
 .single-progress-txt {
     display: flex;
@@ -696,6 +735,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 } */
 .section-heading {
     margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .portfolio-container {
@@ -1006,7 +1046,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .skills-column {
     flex: 5;
-    margin: 0 10px;
+    margin: 5 10px;
 }
 
 .skills-list {
